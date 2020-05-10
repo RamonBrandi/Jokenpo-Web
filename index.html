@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Jokenpo</title>
+    </head>
+        <body>
+
+            <header id="header">
+                <div class="logo">
+                    <div class="table">
+                        <table class="score" id="score">
+                            <tr>
+                                <td>Score</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h2 id="pontos" >0</h2>
+                                </td>
+                            </tr>
+                        </table> <!--score-->
+
+                    </div> <!--table-->
+                    <img src="./images/logo.svg" alt="">
+                </div> <!--logo-->
+            </header>
+            <nav>
+                <div id="starter" class="starter">
+                        <div class="triangle" id="triangle">
+                            <img src="./images/bg-triangle.svg" alt="">
+                        </div> <!--triangle-->
+                            <div class="circle-paper" id="paper" onclick="selected('paper.svg')">
+                                <img src="./images/icon-paper.svg" alt="">
+                            </div> <!--circlePaper-->
+                    
+                            <div class="circle-scissor" id="scissor" onclick="selected('scissors.svg')">
+                                <img src="./images/icon-scissors.svg" alt="">
+                            </div> <!--circle-scissor-->
+
+                            <div class="circle-rock" id="rock" onclick="selected('rock.svg')">
+                                <img src="./images/icon-rock.svg" alt="">
+                            </div> <!--circle-rock-->    
+                </div> <!--starter-->
+            </nav>
+
+            <div id="result" class="result" >
+                <h2 class="picked">YOU PICKED</h2> <!--picked-->
+                <div id="select" class="select">
+                    <img id="imgSelect" src="images/icon-paper.svg" alt="Select">
+                </div> <!--select-->
+
+                <div id="playAgain" class="playAgain" onclick="closedResult()" > 
+                   <button class="button">PLAY AGAIN</button> <!--button-->
+                   <h2 id="wins" class="wins">YOU WIN</h2>  <!--wins-->
+                </div> <!--playAgain-->
+
+                <div id="machine" class= "machine">
+                    <img id="selectmachine" src="images/icon-rock.svg" alt="machine">
+                </div> <!--machine-->
+                         <div id = "machine1" class="machine1">
+                            <h2 class="machine-picked">THE HOUSE PICKED</h2> <!--machine-picked-->
+                         </div> <!--machine1-->
+                
+            </div> <!--result-->
+            
+                <div id="rules" class="rules">
+                    <a href="./images/image-rules.svg">Rules</a>
+                </div> <!--rules-->
+                
+                <script src="Js/javascript.js" ></script>
+        </body>
+</html>

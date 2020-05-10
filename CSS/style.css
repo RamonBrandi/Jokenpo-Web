@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background: linear-gradient(#182547,#192648,#1A2749)
+}
+
+.logo{
+    margin: auto;
+    margin-top: 20px;
+    width: 900px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 50px 50px;
+    
+}
+.logo img{
+    margin: 40px;
+    margin-top: 50px;
+}
+
+.table{
+
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+    width: 200px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 10px 10px;
+    background-color: white;
+
+}
+
+.score{
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 10px;
+    color: #3C4262;
+}
+
+.score h2{
+    font-size: 90px;
+
+}
+
+.triangle{
+    width: 10px;
+    height: 10px;
+    margin: 10% 40%;
+    position: relative;
+}
+
+.circle-paper{
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-color: rgb(82, 110, 243);
+    border-style: solid ;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-left: 490px;
+    bottom: 200px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 2px 10px #999 inset;
+	-moz-box-shadow: 3px 2px 10px #999 inset; 
+	box-shadow: 3px 2px 10px rgb(66, 62, 62) inset;
+}
+
+.circle-paper:hover{
+    box-shadow:
+                1px 1px rgb(200,200,200);
+                2px 2px rgb(200,200,200);
+                3px 3px rgb(200,200,200);
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+}
+
+.circle-paper img{
+    padding: 20px;
+    position: relative;
+}
+
+.circle-scissor{
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-color: rgb(238, 165, 34);
+    border-style: solid ;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-left: 490px;
+    bottom: 200px;
+    left: 265px;
+    bottom: 318px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 2px 10px #999 inset;
+	-moz-box-shadow: 3px 2px 10px #999 inset; 
+	box-shadow: 3px 2px 10px rgb(66, 62, 62) inset;
+}
+
+.circle-scissor:hover{
+    box-shadow:
+                1px 1px rgb(200,200,200);
+                2px 2px rgb(200,200,200);
+                3px 3px rgb(200,200,200);
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+}
+
+.circle-scissor img{
+    padding: 20px;
+    position: relative;
+}
+
+.circle-rock{
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-color: rgb(226, 61, 91);
+    border-style: solid ;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-left: 490px;
+    bottom: 200px;
+    left: 140px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 2px 10px #999 inset;
+	-moz-box-shadow: 3px 2px 10px #999 inset; 
+	box-shadow: 3px 2px 10px rgb(66, 62, 62) inset;
+}
+
+.circle-rock:hover{
+    box-shadow:
+                1px 1px rgb(200,200,200);
+                2px 2px rgb(200,200,200);
+                3px 3px rgb(200,200,200);
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+}
+
+.circle-rock img{
+    padding: 25px;
+    position: relative;
+}
+
+.starter{
+    padding: 10px;
+    top: 10px;
+    position: relative;
+    
+    
+    
+        }
+
+.body{
+    
+    padding: 20px;
+    font-size: 1em;
+    background: #0A0A2A;
+    overflow: hidden;
+}
+.a {
+text-decoration: none;
+color: white;
+margin: 20px;
+
+}
+.result{
+position: relative;
+left: 20%;
+top: 10%;
+display: none;
+width: 150px;
+white-space: nowrap;
+
+}
+
+.result > .picked{
+    margin-left: 28px;
+    font-weight: 300px;
+    white-space: nowrap;
+    text-align: center;
+
+}
+
+.result .wins{
+    margin: 20px;
+    position: relative;
+    margin: -180px auto;
+    left: 230%;
+    text-align: center;
+    font-weight: 900;
+}
+
+.result .machine-picked{
+    margin: 20px;
+    position: absolute;
+    margin: 95px auto;
+    left: 420%;
+    font-weight: 60px;
+    width: 20px;
+    white-space: nowrap;
+}
+
+.select img{
+    width: 95px;
+    height: 95px;
+    background-color: white;
+    border-width: 15px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 50%;
+    padding: 35px;
+    -webkit-box-shadow: 3px 2px 10px #999 inset;
+	-moz-box-shadow: 3px 2px 10px #999 inset; 
+	box-shadow: 3px 2px 10px rgb(66, 62, 62) inset;
+
+}
+.button{
+    margin-left: 300px;
+    position: absolute;
+    top: 120px;
+    width: 250px;
+    height: 60px;
+    font-weight: bold;
+    rgb(82, 110, 243);
+    border: 1px solid rgb(400, 300, 400);
+    border-radius: 10px 10px;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px rgb(82, 110, 243);
+}
+
+.button:hover{
+    box-shadow:
+                1px 1px rgb(200,200,200);
+                2px 2px rgb(200,200,200);
+                3px 3px rgb(200,200,200);
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+}
+
+.machine{
+position: absolute;
+width: 150px;
+left: 650px;
+top: 48%;
+}
+
+.machine img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-width: 15px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 50%;
+    padding: 35px;
+    -webkit-box-shadow: 3px 2px 10px #999 inset;
+	-moz-box-shadow: 3px 2px 10px #999 inset; 
+	box-shadow: 3px 2px 10px rgb(66, 62, 62) inset;
+}
+
+.result h2{
+    color:white;
+    margin: 10px;
+}
+
+.rules{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    width: 90px;
+    bottom: 20px;
+}
+
+.rules a{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
