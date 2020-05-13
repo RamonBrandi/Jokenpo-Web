@@ -2,10 +2,6 @@
 
 Projeto do game jokenpo para web.
 
-O projeto está hospedado no github-pages:
-
-https://ramonbrandi.github.io/Jokenpo-Web/
-
 ![Front-End](https://github.com/RamonBrandi/Jokenpo-Web/blob/master/giphy.gif)
  
 ## Description
