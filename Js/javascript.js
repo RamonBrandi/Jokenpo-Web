@@ -1,5 +1,5 @@
 var score = 0;
-
+document.getElementById('pontos').innerHTML = score++
 
 
 function closedResult(){
